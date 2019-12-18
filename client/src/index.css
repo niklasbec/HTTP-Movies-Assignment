@@ -60,7 +60,39 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  cursor: pointer;
 }
+
+.edit-button {
+  position: absolute;
+  top: 65px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+
+.delete-button {
+  position: absolute;
+  top: 105px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  margin: 0 auto;
+}
+
+.submit {
+  margin-top: 1rem;
+}
+
 .save-button:hover {
   background-color: green;
   color: white;
